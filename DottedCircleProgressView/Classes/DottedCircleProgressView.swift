@@ -9,20 +9,20 @@
 import Foundation
 import UIKit
 
-class DottedCircleProgressView: UIView{
+open class DottedCircleProgressView: UIView{
 	
 	var progressLayer : DottedCircleProgressLayer!
 	private override init(frame: CGRect) {
 		super.init(frame: frame);
 	}
 	
-	convenience init(frame: CGRect, progressConfigurator : ProgressLayerConfigurator) {
+	public convenience init(frame: CGRect, progressConfigurator : ProgressLayerConfigurator) {
 		self.init(frame: frame);
 		self.progressLayer = DottedCircleProgressLayer(progressConfig: progressConfigurator);
 		self.layer.addSublayer(self.progressLayer);
 	}
 	
-	required init?(coder aDecoder: NSCoder) {
+	required public init?(coder aDecoder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}
 }

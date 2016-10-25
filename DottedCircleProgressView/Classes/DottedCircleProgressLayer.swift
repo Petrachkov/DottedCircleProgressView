@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct ProgressLayerConfigurator{
+public struct ProgressLayerConfigurator{
 	var fillColor : CGColor
 	var backgroundColor : CGColor
 	var strokeColor: CGColor
@@ -17,9 +17,19 @@ struct ProgressLayerConfigurator{
 	var frame : CGRect
 	var instanceCount : Int
 	var dotSize : CGFloat
+	
+	public init(fillColor: CGColor, backgroundColor : CGColor, strokeColor : CGColor, instanceColor : CGColor, frame : CGRect, instanceCount : Int, dotSize : CGFloat) {
+		self.fillColor = fillColor;
+		self.backgroundColor = backgroundColor;
+		self.strokeColor = strokeColor;
+		self.instanceColor = instanceColor;
+		self.frame = frame;
+		self.instanceCount = instanceCount;
+		self.dotSize = dotSize;
+	}
 }
 
-class DottedCircleProgressLayer : CAReplicatorLayer{
+public class DottedCircleProgressLayer : CAReplicatorLayer{
 	
 	convenience init(fillColor : CGColor, backgroundColor: CGColor, strokeColor: CGColor, instanceColor: CGColor, frame: CGRect, instanceCount : Int, dotSize: CGFloat) {
 		self.init();
