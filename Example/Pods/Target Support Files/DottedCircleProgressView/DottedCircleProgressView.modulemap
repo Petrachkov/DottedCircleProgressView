@@ -1,0 +1,6 @@
+framework module DottedCircleProgressView {
+  umbrella header "DottedCircleProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DottedCircleProgressView (0.1.0)
+
+DEPENDENCIES:
+  - DottedCircleProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  DottedCircleProgressView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DottedCircleProgressView: 8ae2a332f249622187a4b18ae3ed9b5615aaa47e
+
+PODFILE CHECKSUM: 4070d07092cc4252d4c1c54eb5487beea4c61f38
+
+COCOAPODS: 1.0.1
