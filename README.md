@@ -1,6 +1,5 @@
 # DottedCircleProgressView
 
-[![CI Status](http://img.shields.io/travis/sergey petrachkov/DottedCircleProgressView.svg?style=flat)](https://travis-ci.org/sergey petrachkov/DottedCircleProgressView)
 [![Version](https://img.shields.io/cocoapods/v/DottedCircleProgressView.svg?style=flat)](http://cocoapods.org/pods/DottedCircleProgressView)
 [![License](https://img.shields.io/cocoapods/l/DottedCircleProgressView.svg?style=flat)](http://cocoapods.org/pods/DottedCircleProgressView)
 [![Platform](https://img.shields.io/cocoapods/p/DottedCircleProgressView.svg?style=flat)](http://cocoapods.org/pods/DottedCircleProgressView)
