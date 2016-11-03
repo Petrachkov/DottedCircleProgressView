@@ -10,6 +10,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 3.0, iOS version >= 8.0
+
 ## Installation
 
 DottedCircleProgressView is available through [CocoaPods](http://cocoapods.org). To install
