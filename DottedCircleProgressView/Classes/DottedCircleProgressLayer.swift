@@ -31,7 +31,7 @@ public struct ProgressLayerConfigurator{
 
 public class DottedCircleProgressLayer : CAReplicatorLayer{
 	
-	convenience init(fillColor : CGColor, backgroundColor: CGColor, strokeColor: CGColor, instanceColor: CGColor, frame: CGRect, instanceCount : Int, dotSize: CGFloat) {
+	public convenience init(fillColor : CGColor, backgroundColor: CGColor, strokeColor: CGColor, instanceColor: CGColor, frame: CGRect, instanceCount : Int, dotSize: CGFloat) {
 		self.init();
 		self.frame = frame
 		
@@ -69,7 +69,7 @@ public class DottedCircleProgressLayer : CAReplicatorLayer{
 		instanceLayer.add(fadeAnimation, forKey: "FadeAnimation")
 	}
 	
-	convenience init(progressConfig: ProgressLayerConfigurator) {
+	public convenience init(progressConfig: ProgressLayerConfigurator) {
 		self.init();
 		self.frame = progressConfig.frame;
 		self.instanceCount = progressConfig.instanceCount;
