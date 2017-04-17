@@ -40,7 +40,7 @@ public class DottedCircleProgressLayer : CAReplicatorLayer{
 		self.preservesDepth = false
 		self.instanceColor = instanceColor
 		
-		let angle = Float(M_PI * 2.0) / Float(instanceCount)
+		let angle = Float(.pi * 2.0) / Float(instanceCount)
 		self.instanceTransform = CATransform3DMakeRotation(CGFloat(angle), 0.0, 0.0, 1.0)
 		
 		
@@ -77,7 +77,7 @@ public class DottedCircleProgressLayer : CAReplicatorLayer{
 		self.preservesDepth = false
 		self.instanceColor = progressConfig.instanceColor
 		
-		let angle = Float(M_PI * 2.0) / Float(progressConfig.instanceCount)
+		let angle = Float(.pi * 2.0) / Float(progressConfig.instanceCount)
 		self.instanceTransform = CATransform3DMakeRotation(CGFloat(angle), 0.0, 0.0, 1.0)
 		
 		
