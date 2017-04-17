@@ -1,5 +1,5 @@
 PODS:
-  - DottedCircleProgressView (0.1.0)
+  - DottedCircleProgressView (0.3.0)
 
 DEPENDENCIES:
   - DottedCircleProgressView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DottedCircleProgressView: 85931b876ee4ec3f14739ca0e21d020a81e0fae5
+  DottedCircleProgressView: 791c8bdb0d07c641cd197bb2cfc14200a6d5460b
 
 PODFILE CHECKSUM: 4070d07092cc4252d4c1c54eb5487beea4c61f38
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
