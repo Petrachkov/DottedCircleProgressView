@@ -9,7 +9,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 Here's what it looks like:
 
-![Output sample](https://drive.google.com/open?id=0B700EvOP9QOFVm8zOWR4R0J0T3c)
+![gif](http://i.imgur.com/Ke14Iiw.gif)
 
 ## Requirements
 
