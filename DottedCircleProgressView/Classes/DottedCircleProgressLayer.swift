@@ -91,6 +91,7 @@ public class DottedCircleProgressLayer : CAReplicatorLayer{
 		instanceLayer.strokeColor = progressConfig.strokeColor
 		instanceLayer.backgroundColor = progressConfig.backgroundColor
 		instanceLayer.fillColor = progressConfig.fillColor
+		instanceLayer.cornerRadius = progressConfig.dotSize / 2
 		self.addSublayer(instanceLayer)
 		
 		
