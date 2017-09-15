@@ -28,6 +28,11 @@ pod "DottedCircleProgressView"
 
 sergey petrachkov, petrachkovsergey@gmail.com
 
+## Apps that use this pod
+
+Айда! https://itunes.apple.com/ru/app/%D0%B0%D0%B9%D0%B4%D0%B0/id1245515427
+Juice https://itunes.apple.com/ru/app/juice-fit/id1130889719?mt=8
+
 ## License
 
 DottedCircleProgressView is available under the MIT license. See the LICENSE file for more info.
