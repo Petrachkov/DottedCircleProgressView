@@ -13,7 +13,7 @@ Here's what it looks like:
 
 ## Requirements
 
-Swift 3.1, iOS version >= 8.0
+Swift 4.0, iOS version >= 8.0
 
 ## Installation
 
